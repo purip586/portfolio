@@ -65,7 +65,7 @@ export default function Home() {
           solutions, seeking to advance my career by specializing in frontend
           development and digital marketing.
         </p>
-        <p>
+        <p className="pt-8">
           Currently, I am focusing on developing web-based services, user
           interfaces, and digital marketing solutions at Cross You Co. Ltd.
         </p>

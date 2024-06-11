@@ -60,9 +60,8 @@ export default function Home() {
         </p>
         <p className="pt-8">
           I am a Creative IT professional with passion for creating web-based
-          solutions, looking forward to develop my career as a professional full
-          stack developer. Currently, I'm Focusing On developing web based
-          services and User Interfaces.
+          solutions, looking forward to develop my career in frontend development and Digital Marketing. Currently, I'm Focusing On developing web based
+          services and User Interfaces at Cross You Co. Ltd.
         </p>
       </div>
     </div>

@@ -62,7 +62,7 @@ export default function Home() {
         </p>
         <p className="pt-8">
           I am a creative IT professional with a passion for creating web-based
-          solutions, seeking to advance my career by specializing in frontend
+          solutions, looking to advance my career by specializing in frontend
           development and digital marketing.
         </p>
         <p className="pt-8">

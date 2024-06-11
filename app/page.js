@@ -18,7 +18,9 @@ export default function Home() {
     <div className="flex min-h-screen flex-col md:flex-row items-start justify-between px-4 md:px-28 py-20">
       <div className="w-full md:w-1/2">
         <h1 className="text-5xl font-bold text-[#cdd7ee]">Pradip Puri</h1>
-        <h2 className="text-2xl pt-3 font-semibold text-[#cdd7ee]">Frontend Engineer</h2>
+        <h2 className="text-2xl pt-3 font-semibold text-[#cdd7ee]">
+          Frontend Engineer
+        </h2>
         <p className="pt-3 text-[#a5b2c6]">I build things for the web.</p>
 
         <div className="pt-16 flex flex-col text-[#a5b2c6]">
@@ -59,9 +61,13 @@ export default function Home() {
           creating custom website for my own Company.
         </p>
         <p className="pt-8">
-          I am a Creative IT professional with passion for creating web-based
-          solutions, looking forward to develop my career in frontend development and Digital Marketing. Currently, I'm Focusing On developing web based
-          services and User Interfaces at Cross You Co. Ltd.
+          I am a creative IT professional with a passion for creating web-based
+          solutions, seeking to advance my career by specializing in frontend
+          development and digital marketing.
+        </p>
+        <p>
+          Currently, I am focusing on developing web-based services, user
+          interfaces, and digital marketing solutions at Cross You Co. Ltd.
         </p>
       </div>
     </div>

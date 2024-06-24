@@ -23,21 +23,25 @@ export default function Home() {
         </h2>
         <p className="pt-3 text-[#a5b2c6]">I build things for the web.</p>
 
-        <div className="pt-16 flex flex-col text-[#a5b2c6]">
-          <span className="text-lg">Specializing</span>
-          <span className="pt-3 hover:text-[#cdd7ee]">Web Development</span>
-          <span className="pt-2 hover:text-[#cdd7ee]">
-            Digital Marketing & SEO
-          </span>
+        <div className="pt-16 flex flex-col text-[#a5b2c6] hover:text-[#cdd7ee]">
+          <span className="text-3xl opacity-50">Specializing</span>
+
+          <div className="pt-5 flex items-center gap-3">
+            <div className="w-14 h-[1px] bg-[#cdd7ee]"></div>
+            <span>Web Development</span>
+          </div>
+
+          <div className="pt-3 flex items-center gap-3">
+            <div className="w-14 h-[1px] bg-[#cdd7ee]"></div>
+            <span>Digital Marketing & SEO</span>
+          </div>
         </div>
 
         <div className="pt-10 text-3xl flex gap-5 text-[#a5b2c6]">
           <FaFigma />
           <FaReact />
           <RiTailwindCssFill />
-          <DiMongodb />
           <FaGitAlt />
-          <FaAws />
           <RiNextjsFill />
           <FaNodeJs />
         </div>

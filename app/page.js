@@ -8,7 +8,7 @@ export default function Home() {
         <div className="w-full md:w-1/2 md:fixed md:top-20">
           <HeroOne />
         </div>
-        <div className="w-full md:w-1/2 md:ml-[50%] h-screen overflow-y-auto">
+        <div className="w-full md:w-1/2 md:ml-[50%] h-screen">
           <HeroTwo />
           <Projects />
         </div>

@@ -19,7 +19,7 @@ const Projects = () => {
           <div>
             <div className="flex gap-2">
               <p className="text-[#cdd7ee]">A Real Estate Web App</p>
-              <GoArrowUpRight />
+              <GoArrowUpRight color="#5ce4cf" />
             </div>
             <p className="pt-2 text-sm">
               Web app with property listing and management features.

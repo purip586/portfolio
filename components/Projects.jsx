@@ -15,16 +15,16 @@ const Projects = () => {
       <Link href="https://xurealty-japan.com" passHref target="_blank">
         <div
           ref={ref}
-          className={`relative overlay px-5 py-10 mt-16 flex flex-col md:flex-row gap-3 cursor-pointer transition-transform hover:scale-105 duration-300 transform fade-up ${
+          className={`relative overlay p-8 md:px-5 py-10 mt-16 flex flex-col md:flex-row gap-3 cursor-pointer transition-transform hover:scale-105 duration-300 transform fade-up ${
             inView ? "fade-up-active" : ""
           }`}
         >
           <div>
             <Image
               src="/crossyou.jpg"
-              width={200}
-              height={100}
-              alt="CrossYou Real Estate Web App"
+              width={150}
+              height={150}
+              alt="Cross You Real Estate Web App"
             />
           </div>
           <div>

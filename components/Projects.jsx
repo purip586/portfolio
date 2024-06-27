@@ -1,13 +1,24 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
+import { useInView } from "react-intersection-observer";
 
 const Projects = () => {
+  const { ref, inView } = useInView({
+    triggerOnce: false, // Trigger multiple times
+    threshold: 0.1, // Trigger when 10% of the element is in view
+  });
   return (
     <div className="pt-28">
       <h2 className="text-lg">My Featured Projects</h2>
       <Link href="https://xurealty-japan.com" passHref target="_blank">
-        <div className="relative px-5 py-8 mt-16 flex flex-col md:flex-row gap-3 cursor-pointer transition-transform hover:scale-105 duration-300 transform bg-opacity-5 backdrop-blur-md bg-white">
+        <div
+          ref={ref}
+          className={`relative overlay px-5 py-10 mt-16 flex flex-col md:flex-row gap-3 cursor-pointer transition-transform hover:scale-105 duration-300 transform fade-up ${
+            inView ? "fade-up-active" : ""
+          }`}
+        >
           <div>
             <Image
               src="/crossyou.jpg"

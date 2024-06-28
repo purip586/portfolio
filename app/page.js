@@ -1,3 +1,4 @@
+import Copyright from "@/components/Copyright";
 import HeroOne from "@/components/HeroOne";
 import HeroTwo from "@/components/HeroTwo";
 import Projects from "@/components/Projects";
@@ -11,6 +12,7 @@ export default function Home() {
         <div className="w-full md:w-1/2 md:ml-[50%] h-screen">
           <HeroTwo />
           <Projects />
+          <Copyright />
         </div>
       </div>
     </div>

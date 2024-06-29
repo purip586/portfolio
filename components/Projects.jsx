@@ -105,7 +105,7 @@ const Projects = () => {
           </div>
           <div>
             <div className="flex gap-2">
-              <p className="text-[#cdd7ee]">A Website for INNOVA IT</p>
+              <p className="text-[#cdd7ee]">A Website for Innova IT</p>
               <GoArrowUpRight color="#5ce4cf" />
             </div>
             <p className="pt-2 text-sm">

@@ -82,7 +82,46 @@ const Projects = () => {
               </span>
               <span className="bg-[#5ce4cf] bg-opacity-20 text-[#5ce4cf] p-1 rounded-md">
                 Javascript
-              </span>        
+              </span>
+            </div>
+          </div>
+        </div>
+      </Link>
+
+      <Link href="#" passHref target="_blank">
+        <div
+          ref={ref}
+          className={`relative overlay p-8 md:px-5 py-10 mt-16 flex flex-col md:flex-row gap-3 cursor-pointer transition-transform hover:scale-105 duration-300 transform fade-up ${
+            inView ? "fade-up-active" : ""
+          }`}
+        >
+          <div>
+            <Image
+              src="/innovait.jpg"
+              width={150}
+              height={150}
+              alt="Cross You Real Estate Web App"
+            />
+          </div>
+          <div>
+            <div className="flex gap-2">
+              <p className="text-[#cdd7ee]">A Website for INNOVA IT</p>
+              <GoArrowUpRight color="#5ce4cf" />
+            </div>
+            <p className="pt-2 text-sm">
+              An Interactive Website for an IT Company showcasing their business
+              and services.
+            </p>
+            <div className="flex gap-3 pt-3 text-xs">
+              <span className="bg-[#5ce4cf] bg-opacity-20 text-[#5ce4cf] p-1 rounded-md">
+                NEXT
+              </span>
+              <span className="bg-[#5ce4cf] bg-opacity-20 text-[#5ce4cf] p-1 rounded-md">
+                Tailwind
+              </span>
+              <span className="bg-[#5ce4cf] bg-opacity-20 text-[#5ce4cf] p-1 rounded-md">
+                Vercel
+              </span>
             </div>
           </div>
         </div>

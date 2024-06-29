@@ -109,7 +109,7 @@ const Projects = () => {
               <GoArrowUpRight color="#5ce4cf" />
             </div>
             <p className="pt-2 text-sm">
-              An Interactive Website for an IT Company showcasing their business
+              An Interactive website for an IT company featuring their business
               and services.
             </p>
             <div className="flex gap-3 pt-3 text-xs">

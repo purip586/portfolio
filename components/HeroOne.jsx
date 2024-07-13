@@ -58,9 +58,6 @@ const HeroOne = () => {
         >
           <FaLinkedin />
         </Link>
-        <Link href={"https://www.youtube.com"} className="hover:text-[#cdd7ee]">
-          <FaYoutube />
-        </Link>
       </div>
     </div>
   );

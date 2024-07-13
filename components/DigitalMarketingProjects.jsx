@@ -1,18 +1,6 @@
 import Link from "next/link";
-
-const projects = [
-  {
-    id: 1,
-    title: "SEO Optimization for E-commerce Site",
-    description: "Improved organic search rankings and increased traffic.",
-    imageUrl: `${process.env.NEXT_PUBLIC_WEBSITE_URL}/realestatewebapp.jpg`,
-    category: "SEO",
-    goals: "Increase organic traffic and search rankings.",
-    solutions: "Implemented on-page SEO, link building, and content strategy.",
-    results: "Achieved a 50% increase in organic traffic.",
-  },
-  // Add more projects as needed
-];
+import projects from "@/lib/DigitalMarketingProjects";
+import Image from "next/image";
 
 const DigitalMarketingProjects = () => {
   return (
@@ -20,27 +8,36 @@ const DigitalMarketingProjects = () => {
       <h1 className="text-lg text-center md:text-left my-24">
         Digital Marketing Projects
       </h1>
-      <Link href="/digital-marketing-project" passHref target="_blank">
-        <div className="grid grid-cols-1">
-          {projects.map((project) => (
+      <div className="grid grid-cols-1">
+        {projects.map((project) => (
+          <Link
+            href={`/digital-marketing-project/${project.id}`}
+            passHref
+            target="_blank"
+          >
             <div
               key={project.id}
-              className="shadow-md rounded-lg overflow-hidden cursor-pointer"
+              className="shadow-md rounded-lg overflow-hidden cursor-pointer mb-28"
             >
-              <img
-                src={project.imageUrl}
+              <Image
+                src={project.imageSrc}
                 alt={project.title}
-                className="w-full h-48 object-cover"
+                className="w-full h-64 object-cover mb-4"
+                layout="responsive"
+                width={700}
+                height={400}
               />
               <div className="p-4">
                 <h2 className="text-[#cdd7ee] mb-2">{project.title}</h2>
                 <p className="text-sm mb-4">{project.description}</p>
-                <Link className="text-sm" href="#" passHref target="_blank">Read More</Link>
+                <Link className="text-sm" href="#" passHref target="_blank">
+                  Read More
+                </Link>
               </div>
             </div>
-          ))}
-        </div>
-      </Link>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };

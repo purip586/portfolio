@@ -11,14 +11,12 @@ const DigitalMarketingProjects = () => {
       <div className="grid grid-cols-1">
         {projects.map((project) => (
           <Link
+            key={project.id}
             href={`/digital-marketing-project/${project.id}`}
             passHref
             target="_blank"
           >
-            <div
-              key={project.id}
-              className="shadow-md rounded-lg overflow-hidden cursor-pointer mb-28"
-            >
+            <div className="shadow-md rounded-lg overflow-hidden cursor-pointer mb-28">
               <Image
                 src={project.imageSrc}
                 alt={project.title}

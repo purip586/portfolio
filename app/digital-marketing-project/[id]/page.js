@@ -1,15 +1,28 @@
-// import { useParams } from 'next/navigation'
-import Head from 'next/head'
-import ProjectDetails from '@/components/ProjectDetails'
+"use client"
+
+import { useParams } from 'next/navigation';
+import Head from 'next/head';
+import ProjectDetails from '@/components/ProjectDetails';
 import projects from "@/lib/DigitalMarketingProjects";
 
-
 export default function ProjectPage() {
-  // const params = useParams()
-  // const  {id}  = params.id
-  const project = projects.find((project) => project.id)
+  const { id } = useParams();
+  
+  const project = projects.find(project => project.id === id);
 
-  if (!project) return <p>Project not found</p>
+  if (!project) {
+    return (
+      <div>
+        <Head>
+          <title>Project Not Found</title>
+          <meta name="description" content="Project not found" />
+        </Head>
+        <main className="max-w-4xl mx-auto p-4 pt-16">
+          <p>Project not found</p>
+        </main>
+      </div>
+    );
+  }
 
   return (
     <div>
@@ -18,8 +31,8 @@ export default function ProjectPage() {
         <meta name="description" content={project.description} />
       </Head>
       <main className="max-w-4xl mx-auto p-4 pt-16">
-        <ProjectDetails project={project} />
+        <ProjectDetails id={project.id} />
       </main>
     </div>
-  )
+  );
 }

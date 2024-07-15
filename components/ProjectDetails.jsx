@@ -1,6 +1,8 @@
+import projects from "@/lib/DigitalMarketingProjects";
 import Image from "next/image";
 
-const ProjectDetails = ({ project }) => {
+const ProjectDetails = ({ id }) => {
+  const project = projects.find((project) => project.id === id);
   return (
     <div className="p-4">
       <h2 className="text-3xl font-bold mb-16">{project.title}</h2>

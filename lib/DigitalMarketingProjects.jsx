@@ -23,7 +23,7 @@ const projects = [
       id: 3,
       title: "A Complete Digital Marketing Suit For INNOVA IT",
       description: "Built a mobile app to facilitate food delivery services.",
-      imageSrc: "/InnovaITweb.jpg",
+      imageSrc: "/innovait.jpg",
       category: "Mobile App Development",
       goals: "Create a convenient platform for food delivery.",
       solutions: "Developed an iOS and Android app with real-time tracking.",

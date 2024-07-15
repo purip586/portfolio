@@ -16,8 +16,8 @@ const projects = [
       tags: ["SCSS", "Javascript"],
     },
     {
-      href: "#",
-      imageSrc: "/innovaITweb.jpg",
+      href: "/",
+      imageSrc: "/innovait.jpg",
       alt: "Innova IT Website",
       title: "A Website for Innova IT",
       description: "An Interactive website for an IT company featuring their business and services.",

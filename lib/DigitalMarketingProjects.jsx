@@ -2,7 +2,8 @@ const projects = [
   {
     id: 1,
     title: "A Complete Digital Marketing Suite for Real Estate Website",
-    description: "Improved organic search rankings and increased traffic.",
+    description:
+      "Improved organic search rankings and increased traffic. Managed social media marketing ads, copywriting, content design, and social media handling. Also handled CPC and PPC campaigns, SEO, and Google Business management for local SEO.",
     imageSrc: "/realestatewebapp.jpg",
     category: "SEO",
     goals: "Increase organic traffic and search rankings.",
@@ -13,7 +14,7 @@ const projects = [
     id: 2,
     title: "Built a service landing page & promotion to generate leeds",
     description:
-      "Developed an action oriented service landing page promoting ongoing campaign aimed to generate more leeds from potential customers.",
+      "Developed an action-oriented service landing page to promote an ongoing campaign aimed at generating more leads from potential customers.",
     imageSrc: "/cross_you_landing.jpg",
     category: "Web Development",
     goals: "Create a user-friendly service landing page to generate leeds.",

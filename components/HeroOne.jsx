@@ -1,9 +1,8 @@
 import {
+  FaAws,
   FaEnvelope,
-  FaFigma,
   FaLinkedin,
   FaReact,
-  FaYoutube,
 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
@@ -36,13 +35,13 @@ const HeroOne = () => {
       </div>
 
       <div className="pt-10 text-3xl flex gap-5 text-[#a5b2c6]">
-        <FaFigma />
         <FaReact />
         <RiTailwindCssFill />
         <FaGitAlt />
         <RiNextjsFill />
         <FaNodeJs />
         <SiMongodb />
+        <FaAws />
       </div>
 
       <div className="pt-16 text-xl flex gap-5 text-[#a5b2c6]">

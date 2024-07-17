@@ -12,7 +12,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Built a service landing page & promotion to generate leeds",
+    title: "Built a service landing page aimed at generating leads",
     description:
       "Developed an action-oriented service landing page to promote an ongoing campaign aimed at generating more leads from potential customers.",
     imageSrc: "/cross_you_landing.jpg",

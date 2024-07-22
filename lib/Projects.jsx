@@ -23,6 +23,14 @@ const projects = [
       description: "An Interactive website for an IT company featuring their business and services.",
       tags: ["NEXT", "Tailwind", "Vercel"],
     },
+    {
+      href: "https://apple-one-eosin.vercel.app/",
+      imageSrc: "/apple_website.png",
+      alt: "Apple Website",
+      title: "A cloned website of Apple",
+      description: "A cloned website for Apple company featuring their newly launched product iPhone 15 Pro.",
+      tags: ["React", "GSAP", "Tailwind", "Three.js"],
+    },
   ];
 
   export default projects;

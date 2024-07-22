@@ -41,7 +41,7 @@ const HeroOne = () => {
         <RiNextjsFill />
         <FaNodeJs />
         <SiMongodb />
-        <FaAws />
+        <span className="text-xl">CI/CD</span>
       </div>
 
       <div className="pt-16 text-xl flex gap-5 text-[#a5b2c6]">

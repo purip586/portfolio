@@ -31,6 +31,14 @@ const projects = [
       description: "A cloned website for Apple company featuring their newly launched product iPhone 15 Pro.",
       tags: ["React", "GSAP", "Tailwind", "Three.js"],
     },
+    {
+      href: "/",
+      imageSrc: "/careplus_healthcare.png",
+      alt: "Healthcare Management App",
+      title: "A Healthcare Management App",
+      description: "A healthcare management app called Careplus",
+      tags: ["Next", "Appwrite", "Tailwind", "shadcn"],
+    },
   ];
 
   export default projects;

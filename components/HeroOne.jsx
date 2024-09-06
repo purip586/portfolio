@@ -1,9 +1,4 @@
-import {
-  FaAws,
-  FaEnvelope,
-  FaLinkedin,
-  FaReact,
-} from "react-icons/fa";
+import { FaAws, FaEnvelope, FaLinkedin, FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
@@ -41,7 +36,7 @@ const HeroOne = () => {
         <RiNextjsFill />
         <FaNodeJs />
         <SiMongodb />
-        <span className="text-xl">CI/CD</span>
+        <FaAws />
       </div>
 
       <div className="pt-16 text-xl flex gap-5 text-[#a5b2c6]">

@@ -47,7 +47,8 @@ const projects = [
     imageSrc: "/devoverflow.png",
     alt: "A social app for developers",
     title: "A social app for developers",
-    description: "A socail media app community for develpers to interact",
+    description:
+      "Dev overflow is a social media community app tailored for developers to interact with other devlopers from around the world.",
     tags: ["Next", "Typescript", "Tailwind", "shadcn"],
   },
 ];

@@ -44,7 +44,7 @@ const projects = [
   },
   {
     href: "/",
-    imageSrc: "/devoverflow",
+    imageSrc: "/devoverflow.png",
     alt: "A social app for developers",
     title: "A social app for developers",
     description: "A socail media app community for develpers to interact",

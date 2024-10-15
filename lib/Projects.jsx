@@ -29,9 +29,9 @@ const projects = [
     href: "https://apple-one-eosin.vercel.app/",
     imageSrc: "/apple_website.png",
     alt: "Apple Website",
-    title: "A cloned website of Apple",
+    title: "A product landing page of iPhone",
     description:
-      "A cloned website for Apple company featuring their newly launched product iPhone 15 Pro.",
+      "A cloned 3D animated website for Apple iPhone featuring their newly launched product iPhone 15 Pro.",
     tags: ["React", "GSAP", "Tailwind", "Three.js"],
   },
   {

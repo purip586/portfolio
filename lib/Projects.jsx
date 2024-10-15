@@ -17,15 +17,6 @@ const projects = [
     tags: ["SCSS", "Javascript"],
   },
   {
-    href: "/",
-    imageSrc: "/innovait.jpg",
-    alt: "Innova IT Website",
-    title: "A Website for Innova IT",
-    description:
-      "An Interactive website for an IT company featuring their business and services.",
-    tags: ["NEXT", "Tailwind", "Vercel"],
-  },
-  {
     href: "https://apple-one-eosin.vercel.app/",
     imageSrc: "/apple_website.png",
     alt: "Apple Website",

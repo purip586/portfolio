@@ -13,7 +13,7 @@ export default function Home() {
         <div className="w-full md:w-1/2 md:ml-[50%] h-screen">
           <HeroTwo />
           <Projects />
-          <DigitalMarketingProjects />
+          {/* <DigitalMarketingProjects /> */}
           <Copyright />
         </div>
       </div>

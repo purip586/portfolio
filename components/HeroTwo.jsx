@@ -8,12 +8,12 @@ const HeroTwo = () => {
       </p>
       <p className="pt-8">
         I am a creative IT professional with a passion for creating web-based
-        solutions, looking to advance my career by specializing in frontend
-        development and digital marketing.
+        solutions, looking to advance my career by specializing in web
+        development and DevOps.
       </p>
       <p className="pt-8">
-        Currently, I am focusing on developing web-based services, user
-        interfaces, and digital marketing solutions at Cross You Co. Ltd.
+        Currently, I am focusing on developing and delivering web-based
+        services, user interfaces, and DevOps solutions at Cross You Co. Ltd.
       </p>
     </div>
   );

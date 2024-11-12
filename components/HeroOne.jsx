@@ -25,7 +25,7 @@ const HeroOne = () => {
 
         <div className="pt-3 flex items-center gap-3">
           <div className="w-14 h-[1px] bg-[#cdd7ee]"></div>
-          <span>Digital Marketing & SEO</span>
+          <span>DevOps</span>
         </div>
       </div>
 

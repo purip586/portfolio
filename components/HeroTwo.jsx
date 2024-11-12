@@ -12,8 +12,8 @@ const HeroTwo = () => {
         development and DevOps.
       </p>
       <p className="pt-8">
-        Currently, I am focusing on developing and delivering web-based
-        services, user interfaces, and DevOps solutions at Cross You Co. Ltd.
+        Currently, I am focusing on developing and delivering web-based service,
+        user interface, and DevOps solutions at Cross You Co. Ltd.
       </p>
     </div>
   );

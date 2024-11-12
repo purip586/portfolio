@@ -42,14 +42,6 @@ const projects = [
       "Dev overflow is a social media community app tailored for developers to interact with other devlopers from around the world.",
     tags: ["Next", "Typescript", "Tailwind", "shadcn"],
   },
-  {
-    href: "/",
-    imageSrc: "/ecommerce.jpg",
-    alt: "A e-commerce app",
-    title: "e-commerce app",
-    description: "A full featured e-commerce app",
-    tags: ["Next", "Typescript", "Tailwind", "shadcn"],
-  },
 ];
 
 export default projects;

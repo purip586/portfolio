@@ -42,6 +42,15 @@ const projects = [
       "Dev overflow is a social media community app tailored for developers to interact with other devlopers from around the world.",
     tags: ["Next", "Typescript", "Tailwind", "shadcn"],
   },
+  {
+    href: "/",
+    imageSrc: "/travel_advisor.png",
+    alt: "A Travel Advisor App",
+    title: "A Travel Advisor App",
+    description:
+      "Built a travel advisor app inspired by trip advisor with the help of rapid API.",
+    tags: ["React", "Material UI"],
+  },
 ];
 
 export default projects;

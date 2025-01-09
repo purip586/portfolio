@@ -1,9 +1,9 @@
-import { FaAws, FaEnvelope, FaLinkedin, FaReact } from "react-icons/fa";
+import { FaAws, FaEnvelope, FaLinkedin, FaPython, FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
-import { SiMongodb, SiTypescript } from "react-icons/si";
+import { SiMongodb, SiMysql, SiPowerbi, SiTypescript } from "react-icons/si";
 import Link from "next/link";
 
 const HeroOne = () => {
@@ -11,7 +11,7 @@ const HeroOne = () => {
     <div>
       <h1 className="text-5xl font-bold text-[#cdd7ee]">Pradip Puri</h1>
       <h2 className="text-2xl pt-3 font-semibold text-[#cdd7ee]">
-        Frontend Engineer
+        Frontend Engineer & Data Analyst
       </h2>
       <p className="pt-3 text-[#a5b2c6]">I build things for the web.</p>
 
@@ -21,6 +21,7 @@ const HeroOne = () => {
         <div className="pt-5 flex items-center gap-3">
           <div className="w-14 h-[1px] bg-[#cdd7ee]"></div>
           <span>Web Development</span>
+          <span>Data Analysis</span>
         </div>
 
         <div className="pt-3 flex items-center gap-3">
@@ -38,6 +39,9 @@ const HeroOne = () => {
         <FaNodeJs />
         <SiMongodb />
         <FaAws />
+        <FaPython />
+        <SiMysql />
+        <SiPowerbi />
       </div>
 
       <div className="pt-16 text-xl flex gap-5 text-[#a5b2c6]">

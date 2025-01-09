@@ -27,11 +27,11 @@ const projects = [
   },
   {
     href: "/",
-    imageSrc: "/careplus_healthcare.png",
-    alt: "Healthcare Management App",
-    title: "A Healthcare Management App",
-    description: "A healthcare management app called Careplus",
-    tags: ["Next", "Appwrite", "Tailwind", "shadcn"],
+    imageSrc: "/docplus.png",
+    alt: "Doctor Appointment Booking App",
+    title: "Doctor Appointment Booking App",
+    description: "Doctor Appointment Booking App",
+    tags: ["React","Tailwind"],
   },
   {
     href: "/",

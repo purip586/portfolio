@@ -3,7 +3,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
-import { SiMongodb, SiMysql, SiPowerbi, SiTypescript } from "react-icons/si";
+import { SiMongodb, SiMysql, SiPowerbi } from "react-icons/si";
 import Link from "next/link";
 
 const HeroOne = () => {
@@ -21,12 +21,11 @@ const HeroOne = () => {
         <div className="pt-5 flex items-center gap-3">
           <div className="w-14 h-[1px] bg-[#cdd7ee]"></div>
           <span>Web Development</span>
-          <span>Data Analysis</span>
         </div>
 
         <div className="pt-3 flex items-center gap-3">
           <div className="w-14 h-[1px] bg-[#cdd7ee]"></div>
-          <span>DevOps</span>
+          <span>Data Analysis</span>
         </div>
       </div>
 

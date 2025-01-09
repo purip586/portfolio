@@ -32,7 +32,6 @@ const HeroOne = () => {
 
       <div className="pt-10 text-3xl flex gap-5 text-[#a5b2c6]">
         <FaReact />
-        <SiTypescript />
         <RiTailwindCssFill />
         <FaGitAlt />
         <RiNextjsFill />

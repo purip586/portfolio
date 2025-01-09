@@ -26,7 +26,7 @@ const projects = [
     tags: ["React", "GSAP", "Tailwind", "Three.js"],
   },
   {
-    href: "/",
+    href: "https://doctor-plus-nu.vercel.app/",
     imageSrc: "/docplus.png",
     alt: "Doctor Appointment Booking App",
     title: "Doctor Appointment Booking App",

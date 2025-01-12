@@ -31,7 +31,7 @@ const projects = [
     alt: "Doctor Appointment Booking App",
     title: "Doctor Appointment Booking App",
     description: "Doctor Appointment Booking App",
-    tags: ["React","Tailwind"],
+    tags: ["React", "Tailwind"],
   },
   {
     href: "/",

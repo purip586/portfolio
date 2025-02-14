@@ -7,7 +7,7 @@ import {
   FaRProject,
   SiTableau,
 } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { RiFileExcel2Line, RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
@@ -50,6 +50,7 @@ const HeroOne = () => {
         <SiPowerbi />
         <FaRProject />
         <SiTableau />
+        <RiFileExcel2Line />
       </div>
 
       <div className="pt-16 text-xl flex gap-5">

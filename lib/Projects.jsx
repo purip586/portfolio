@@ -34,7 +34,7 @@ const projects = [
     tags: ["Next", "Typescript", "Tailwind", "shadcn"],
   },
   {
-    href: "/",
+    href: "https://travel-advisor-fupt.vercel.app/",
     imageSrc: "/travel_advisor.png",
     alt: "A Travel Advisor App",
     title: "A Travel Advisor App",

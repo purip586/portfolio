@@ -8,15 +8,6 @@ const projects = [
     tags: ["NEXT", "Tailwind", "MongoDB", "AWS"],
   },
   {
-    href: "https://purip586.github.io/cross-u",
-    imageSrc: "/cross_you_landing.jpg",
-    alt: "Cross You Real Estate Web App",
-    title: "A Service Landing Page",
-    description:
-      "An old version of landing page designed for Cross You Co. Ltd.",
-    tags: ["SCSS", "Javascript"],
-  },
-  {
     href: "https://apple-one-eosin.vercel.app/",
     imageSrc: "/apple_website.png",
     alt: "Apple Website",
@@ -31,7 +22,7 @@ const projects = [
     alt: "Doctor Appointment Booking App",
     title: "Doctor Appointment Booking App",
     description: "Doctor Appointment Booking App",
-    tags: ["React","Tailwind"],
+    tags: ["React", "Tailwind"],
   },
   {
     href: "/",

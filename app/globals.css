@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-  color: #a5b2c6;
-  background: #0d162e
+  color: #0d162e;
+  background: #a5b2c6;
 }
 
 .fade-up {

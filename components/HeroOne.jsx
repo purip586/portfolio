@@ -36,7 +36,7 @@ const HeroOne = () => {
         </div>
       </div>
 
-      <div className="pt-10 text-3xl flex flex-wrap gap-5 text-[#1d1f20]">
+      <div className="pt-10 w-full md:w-1/2 text-3xl flex flex-wrap gap-5 text-[#1d1f20]">
         <FaReact />
         <RiTailwindCssFill />
         <FaGitAlt />

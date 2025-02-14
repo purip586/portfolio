@@ -5,13 +5,12 @@ import {
   FaPython,
   FaReact,
   FaRProject,
-  SiTableau,
 } from "react-icons/fa";
 import { RiFileExcel2Line, RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
-import { SiMongodb, SiMysql, SiPowerbi } from "react-icons/si";
+import { SiMongodb, SiMysql, SiPowerbi, SiTableau } from "react-icons/si";
 import Link from "next/link";
 
 const HeroOne = () => {

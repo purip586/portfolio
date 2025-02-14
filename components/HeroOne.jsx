@@ -4,6 +4,8 @@ import {
   FaLinkedin,
   FaPython,
   FaReact,
+  FaRProject,
+  SiTableau,
 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
@@ -46,6 +48,8 @@ const HeroOne = () => {
         <FaPython />
         <SiMysql />
         <SiPowerbi />
+        <FaRProject />
+        <SiTableau />
       </div>
 
       <div className="pt-16 text-xl flex gap-5">

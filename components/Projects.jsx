@@ -29,7 +29,7 @@ const ProjectCard = ({ project }) => {
         </div>
         <div>
           <div className="flex gap-2">
-            <p className="text-[#cdd7ee]">{project.title}</p>
+            <p className="text-[#1d1f20]">{project.title}</p>
             <GoArrowUpRight color="#5ce4cf" />
           </div>
           <p className="pt-2 text-sm">{project.description}</p>

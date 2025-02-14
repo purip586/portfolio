@@ -1,4 +1,10 @@
-import { FaAws, FaEnvelope, FaLinkedin, FaPython, FaReact } from "react-icons/fa";
+import {
+  FaAws,
+  FaEnvelope,
+  FaLinkedin,
+  FaPython,
+  FaReact,
+} from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
@@ -9,13 +15,13 @@ import Link from "next/link";
 const HeroOne = () => {
   return (
     <div>
-      <h1 className="text-5xl font-bold text-[#cdd7ee]">Pradip Puri</h1>
-      <h2 className="text-2xl pt-3 font-semibold text-[#cdd7ee]">
+      <h1 className="text-5xl font-bold">Pradip Puri</h1>
+      <h2 className="text-2xl pt-3 font-semibold">
         Frontend Engineer & Data Analyst
       </h2>
-      <p className="pt-3 text-[#a5b2c6]">I build things for the web.</p>
+      <p className="pt-3">I build things for the web</p>
 
-      <div className="pt-16 flex flex-col text-[#a5b2c6] hover:text-[#cdd7ee]">
+      <div className="pt-16 flex flex-col hover:text-[#cdd7ee]">
         <span className="text-3xl opacity-50">Specializing</span>
 
         <div className="pt-5 flex items-center gap-3">
@@ -42,7 +48,7 @@ const HeroOne = () => {
         <SiPowerbi />
       </div>
 
-      <div className="pt-16 text-xl flex gap-5 text-[#a5b2c6]">
+      <div className="pt-16 text-xl flex gap-5">
         <Link
           href={"mailto:purip586@gmail.com"}
           className="hover:text-[#cdd7ee]"

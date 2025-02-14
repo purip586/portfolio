@@ -21,21 +21,21 @@ const HeroOne = () => {
       </h2>
       <p className="pt-3">I build things for the web</p>
 
-      <div className="pt-16 flex flex-col hover:text-[#cdd7ee]">
+      <div className="pt-16 flex flex-col">
         <span className="text-3xl opacity-50">Specializing</span>
 
         <div className="pt-5 flex items-center gap-3">
-          <div className="w-14 h-[1px] bg-[#cdd7ee]"></div>
+          <div className="w-14 h-[1px] bg-[#1d1f20]"></div>
           <span>Web Development</span>
         </div>
 
         <div className="pt-3 flex items-center gap-3">
-          <div className="w-14 h-[1px] bg-[#cdd7ee]"></div>
+          <div className="w-14 h-[1px] bg-[#1d1f20]"></div>
           <span>Data Analysis</span>
         </div>
       </div>
 
-      <div className="pt-10 text-3xl flex flex-wrap gap-5 text-[#a5b2c6]">
+      <div className="pt-10 text-3xl flex flex-wrap gap-5 text-[#1d1f20]">
         <FaReact />
         <RiTailwindCssFill />
         <FaGitAlt />
@@ -57,7 +57,7 @@ const HeroOne = () => {
         </Link>
         <Link
           href={"https://www.linkedin.com"}
-          className="hover:text-[#cdd7ee]"
+          className="hover:text-[#1d1f20]"
         >
           <FaLinkedin />
         </Link>

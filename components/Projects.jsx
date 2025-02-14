@@ -20,7 +20,12 @@ const ProjectCard = ({ project }) => {
         }`}
       >
         <div>
-          <Image src={project.imageSrc} width={200} height={150} alt={project.alt} />
+          <Image
+            src={project.imageSrc}
+            width={200}
+            height={150}
+            alt={project.alt}
+          />
         </div>
         <div>
           <div className="flex gap-2">
@@ -32,7 +37,7 @@ const ProjectCard = ({ project }) => {
             {project.tags.map((tag, index) => (
               <span
                 key={index}
-                className="bg-[#5ce4cf] bg-opacity-20 text-[#5ce4cf] p-1 rounded-md"
+                className="bg-[#1d1f20] bg-opacity-20 text-[#1d1f20] p-1 rounded-md"
               >
                 {tag}
               </span>

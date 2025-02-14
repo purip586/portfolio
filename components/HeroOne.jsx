@@ -51,7 +51,7 @@ const HeroOne = () => {
       <div className="pt-16 text-xl flex gap-5">
         <Link
           href={"mailto:purip586@gmail.com"}
-          className="hover:text-[#cdd7ee]"
+          className="hover:text-[#1d1f20]"
         >
           <FaEnvelope />
         </Link>

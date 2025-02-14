@@ -1,5 +1,4 @@
 import Copyright from "@/components/Copyright";
-import DigitalMarketingProjects from "@/components/DigitalMarketingProjects";
 import HeroOne from "@/components/HeroOne";
 import HeroTwo from "@/components/HeroTwo";
 import Projects from "@/components/Projects";

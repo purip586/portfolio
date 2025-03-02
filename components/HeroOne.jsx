@@ -17,9 +17,7 @@ const HeroOne = () => {
   return (
     <div>
       <h1 className="text-5xl font-bold">Pradip Puri</h1>
-      <h2 className="text-2xl pt-3 font-semibold">
-        Frontend Engineer & Data Analyst
-      </h2>
+      <h2 className="text-2xl pt-3 font-semibold">Data Engineer</h2>
       <p className="pt-3">I build things for the web</p>
 
       <div className="pt-16 flex flex-col">
